@@ -47,7 +47,7 @@ def fetch_news(query: str, api_key: str | None = None, page_size: int = 50,
     """Fetch headlines for a query. Falls back to cache if key missing or call fails."""
     import requests
 
-    api_key = api_key or config.NEWSAPI_KEY
+    api_key = config.NEWSAPI_KEY if api_key is None else api_key
     cache = _cache_path(query)
     try:
         if not api_key:
@@ -64,10 +64,11 @@ def fetch_news(query: str, api_key: str | None = None, page_size: int = 50,
         cache.write_text(json.dumps(payload), encoding="utf-8")
         return parse_articles(payload)
     except Exception as exc:
+        msg = str(exc).replace(api_key, "***") if api_key else str(exc)  # never log the key
         if cache.exists():
-            log.warning("news fetch failed (%s); using cache", exc)
+            log.warning("news fetch failed (%s); using cache", msg)
             return parse_articles(json.loads(cache.read_text(encoding="utf-8")))
-        log.warning("news fetch failed (%s) and no cache", exc)
+        log.warning("news fetch failed (%s) and no cache", msg)
         return []
 
 

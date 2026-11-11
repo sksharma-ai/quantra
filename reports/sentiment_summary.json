@@ -1,0 +1,61 @@
+{
+  "model": "vader",
+  "tickers": {
+    "RELIANCE.NS": {
+      "n": 29,
+      "mean_score": 0.07853793103448276,
+      "positive": 9,
+      "neutral": 14,
+      "negative": 6
+    },
+    "TCS.NS": {
+      "n": 13,
+      "mean_score": 0.19875384615384617,
+      "positive": 7,
+      "neutral": 5,
+      "negative": 1
+    },
+    "INFY.NS": {
+      "n": 42,
+      "mean_score": 0.14998333333333336,
+      "positive": 22,
+      "neutral": 15,
+      "negative": 5
+    },
+    "HDFCBANK.NS": {
+      "n": 27,
+      "mean_score": 0.2708037037037037,
+      "positive": 18,
+      "neutral": 8,
+      "negative": 1
+    },
+    "AAPL": {
+      "n": 23,
+      "mean_score": 0.17116521739130433,
+      "positive": 11,
+      "neutral": 9,
+      "negative": 3
+    },
+    "MSFT": {
+      "n": 19,
+      "mean_score": -0.03367894736842105,
+      "positive": 4,
+      "neutral": 10,
+      "negative": 5
+    },
+    "^NSEI": {
+      "n": 41,
+      "mean_score": 0.2106756097560976,
+      "positive": 21,
+      "neutral": 17,
+      "negative": 3
+    },
+    "^GSPC": {
+      "n": 46,
+      "mean_score": -0.03328695652173913,
+      "positive": 11,
+      "neutral": 17,
+      "negative": 18
+    }
+  }
+}
