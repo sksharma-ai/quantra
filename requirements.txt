@@ -1,0 +1,16 @@
+pandas
+numpy
+yfinance
+scikit-learn
+xgboost
+transformers
+torch
+nltk
+plotly
+streamlit
+sqlalchemy>=2.0
+bcrypt
+PyJWT
+python-dotenv
+requests
+pytest
