@@ -1,0 +1,349 @@
+{
+  "generated_at": "2026-11-11T17:39:38",
+  "tickers": {
+    "RELIANCE.NS": {
+      "latest": {
+        "as_of": "2026-11-11",
+        "score": 51.74446633825944,
+        "level": "MED",
+        "volatility_component": 58.57142857142857,
+        "sentiment_component": 46.073103448275866,
+        "anomaly_component": 46.230158730158735,
+        "weights_used": {
+          "volatility": 0.45,
+          "sentiment": 0.25,
+          "anomaly": 0.3
+        },
+        "n_headlines": 29,
+        "reasoning": "Crash risk 52/100 (MED). AI-generated simulation, not advice. Volatility 59/100: 20-day volatility (45.3% annualised) is higher than 98% of the past year, and price is 0.0% below its 60-day high. Anomaly 46/100: Isolation Forest finds recent price and volume behaviour more unusual than 92% of the past year (halved because the 5-day move is upward). Sentiment 46/100: average news tone +0.08 across 29 headlines in the last 7 days."
+      },
+      "evaluation": {
+        "n": 1147,
+        "horizon_days": 10,
+        "drop_threshold": 0.05,
+        "spearman_rho": -0.040089488695757194,
+        "spearman_p": 0.17484752074881513,
+        "base_drop_rate": 0.16216216216216217,
+        "by_level": {
+          "LOW": {
+            "n": 409,
+            "mean_fwd_drop": 0.025587273822617655,
+            "drop_rate": 0.1784841075794621
+          },
+          "MED": {
+            "n": 514,
+            "mean_fwd_drop": 0.0274285949971267,
+            "drop_rate": 0.18093385214007782
+          },
+          "HIGH": {
+            "n": 224,
+            "mean_fwd_drop": 0.020414176915078547,
+            "drop_rate": 0.08928571428571429
+          }
+        },
+        "lift_high_vs_base": 0.550595238095238
+      }
+    },
+    "TCS.NS": {
+      "latest": {
+        "as_of": "2026-11-11",
+        "score": 48.25499185510004,
+        "level": "MED",
+        "volatility_component": 48.99764164788205,
+        "sentiment_component": 40.06230769230769,
+        "anomaly_component": 53.96825396825397,
+        "weights_used": {
+          "volatility": 0.45,
+          "sentiment": 0.25,
+          "anomaly": 0.3
+        },
+        "n_headlines": 13,
+        "reasoning": "Crash risk 48/100 (MED). AI-generated simulation, not advice. Volatility 49/100: 20-day volatility (35.1% annualised) is higher than 71% of the past year, and price is 2.5% below its 60-day high. Anomaly 54/100: Isolation Forest finds recent price and volume behaviour more unusual than 54% of the past year. Sentiment 40/100: average news tone +0.20 across 13 headlines in the last 7 days."
+      },
+      "evaluation": {
+        "n": 1147,
+        "horizon_days": 10,
+        "drop_threshold": 0.05,
+        "spearman_rho": 0.04217813828837641,
+        "spearman_p": 0.1534239737803828,
+        "base_drop_rate": 0.2092414995640802,
+        "by_level": {
+          "LOW": {
+            "n": 332,
+            "mean_fwd_drop": 0.02613270138874533,
+            "drop_rate": 0.18674698795180722
+          },
+          "MED": {
+            "n": 522,
+            "mean_fwd_drop": 0.028169730169148276,
+            "drop_rate": 0.18007662835249041
+          },
+          "HIGH": {
+            "n": 293,
+            "mean_fwd_drop": 0.03269644036579619,
+            "drop_rate": 0.28668941979522183
+          }
+        },
+        "lift_high_vs_base": 1.370136518771331
+      }
+    },
+    "INFY.NS": {
+      "latest": {
+        "as_of": "2026-11-11",
+        "score": 45.72270682640145,
+        "level": "MED",
+        "volatility_component": 59.60819770946354,
+        "sentiment_component": 42.50083333333333,
+        "anomaly_component": 27.579365079365083,
+        "weights_used": {
+          "volatility": 0.45,
+          "sentiment": 0.25,
+          "anomaly": 0.3
+        },
+        "n_headlines": 42,
+        "reasoning": "Crash risk 46/100 (MED). AI-generated simulation, not advice. Volatility 60/100: 20-day volatility (39.0% annualised) is higher than 88% of the past year, and price is 2.5% below its 60-day high. Anomaly 28/100: Isolation Forest finds recent price and volume behaviour more unusual than 55% of the past year (halved because the 5-day move is upward). Sentiment 43/100: average news tone +0.15 across 42 headlines in the last 7 days."
+      },
+      "evaluation": {
+        "n": 1147,
+        "horizon_days": 10,
+        "drop_threshold": 0.05,
+        "spearman_rho": -0.013447297301370167,
+        "spearman_p": 0.649146044946586,
+        "base_drop_rate": 0.25196163905841323,
+        "by_level": {
+          "LOW": {
+            "n": 369,
+            "mean_fwd_drop": 0.03316053283731425,
+            "drop_rate": 0.24932249322493225
+          },
+          "MED": {
+            "n": 468,
+            "mean_fwd_drop": 0.030118578889094277,
+            "drop_rate": 0.21153846153846154
+          },
+          "HIGH": {
+            "n": 310,
+            "mean_fwd_drop": 0.03608778622602048,
+            "drop_rate": 0.3161290322580645
+          }
+        },
+        "lift_high_vs_base": 1.2546712802768165
+      }
+    },
+    "HDFCBANK.NS": {
+      "latest": {
+        "as_of": "2026-11-11",
+        "score": 46.09114417989418,
+        "level": "MED",
+        "volatility_component": 49.76190476190476,
+        "sentiment_component": 36.45981481481482,
+        "anomaly_component": 48.61111111111111,
+        "weights_used": {
+          "volatility": 0.45,
+          "sentiment": 0.25,
+          "anomaly": 0.3
+        },
+        "n_headlines": 27,
+        "reasoning": "Crash risk 46/100 (MED). AI-generated simulation, not advice. Volatility 50/100: 20-day volatility (26.9% annualised) is higher than 83% of the past year, and price is 0.0% below its 60-day high. Anomaly 49/100: Isolation Forest finds recent price and volume behaviour more unusual than 97% of the past year (halved because the 5-day move is upward). Sentiment 36/100: average news tone +0.27 across 27 headlines in the last 7 days."
+      },
+      "evaluation": {
+        "n": 1147,
+        "horizon_days": 10,
+        "drop_threshold": 0.05,
+        "spearman_rho": 0.029668340916643325,
+        "spearman_p": 0.31541975696243524,
+        "base_drop_rate": 0.13164777680906714,
+        "by_level": {
+          "LOW": {
+            "n": 448,
+            "mean_fwd_drop": 0.02443002059618062,
+            "drop_rate": 0.14285714285714285
+          },
+          "MED": {
+            "n": 454,
+            "mean_fwd_drop": 0.019751066311960518,
+            "drop_rate": 0.09251101321585903
+          },
+          "HIGH": {
+            "n": 245,
+            "mean_fwd_drop": 0.029251176136471217,
+            "drop_rate": 0.1836734693877551
+          }
+        },
+        "lift_high_vs_base": 1.3951885389917555
+      }
+    },
+    "AAPL": {
+      "latest": {
+        "as_of": "2026-11-10",
+        "score": 39.892104525486204,
+        "level": "MED",
+        "volatility_component": 46.18148831750557,
+        "sentiment_component": 41.44173913043478,
+        "anomaly_component": 29.166666666666668,
+        "weights_used": {
+          "volatility": 0.45,
+          "sentiment": 0.25,
+          "anomaly": 0.3
+        },
+        "n_headlines": 23,
+        "reasoning": "Crash risk 40/100 (MED). AI-generated simulation, not advice. Volatility 46/100: 20-day volatility (27.1% annualised) is higher than 74% of the past year, and price is 0.6% below its 60-day high. Anomaly 29/100: Isolation Forest finds recent price and volume behaviour more unusual than 58% of the past year (halved because the 5-day move is upward). Sentiment 41/100: average news tone +0.17 across 23 headlines in the last 7 days."
+      },
+      "evaluation": {
+        "n": 1165,
+        "horizon_days": 10,
+        "drop_threshold": 0.05,
+        "spearman_rho": 0.08345182292818802,
+        "spearman_p": 0.004367788142465605,
+        "base_drop_rate": 0.2351931330472103,
+        "by_level": {
+          "LOW": {
+            "n": 483,
+            "mean_fwd_drop": 0.0255940696123953,
+            "drop_rate": 0.19875776397515527
+          },
+          "MED": {
+            "n": 410,
+            "mean_fwd_drop": 0.028713775530409755,
+            "drop_rate": 0.21951219512195122
+          },
+          "HIGH": {
+            "n": 272,
+            "mean_fwd_drop": 0.03865916725525498,
+            "drop_rate": 0.3235294117647059
+          }
+        },
+        "lift_high_vs_base": 1.375590382138257
+      }
+    },
+    "MSFT": {
+      "latest": {
+        "as_of": "2026-11-10",
+        "score": 46.11860316239122,
+        "level": "MED",
+        "volatility_component": 56.57671351597936,
+        "sentiment_component": 51.68394736842106,
+        "anomaly_component": 25.793650793650798,
+        "weights_used": {
+          "volatility": 0.45,
+          "sentiment": 0.25,
+          "anomaly": 0.3
+        },
+        "n_headlines": 19,
+        "reasoning": "Crash risk 46/100 (MED). AI-generated simulation, not advice. Volatility 57/100: 20-day volatility (37.4% annualised) is higher than 76% of the past year, and price is 4.1% below its 60-day high. Anomaly 26/100: Isolation Forest finds recent price and volume behaviour more unusual than 52% of the past year (halved because the 5-day move is upward). Sentiment 52/100: average news tone -0.03 across 19 headlines in the last 7 days."
+      },
+      "evaluation": {
+        "n": 1165,
+        "horizon_days": 10,
+        "drop_threshold": 0.05,
+        "spearman_rho": 0.14908795235172714,
+        "spearman_p": 3.1907742319076563e-07,
+        "base_drop_rate": 0.20515021459227467,
+        "by_level": {
+          "LOW": {
+            "n": 484,
+            "mean_fwd_drop": 0.022819711388322,
+            "drop_rate": 0.13429752066115702
+          },
+          "MED": {
+            "n": 370,
+            "mean_fwd_drop": 0.03237009261547486,
+            "drop_rate": 0.24054054054054055
+          },
+          "HIGH": {
+            "n": 311,
+            "mean_fwd_drop": 0.03491483329222094,
+            "drop_rate": 0.2733118971061093
+          }
+        },
+        "lift_high_vs_base": 1.3322525528394031
+      }
+    },
+    "^NSEI": {
+      "latest": {
+        "as_of": "2026-11-11",
+        "score": 46.43798344947735,
+        "level": "MED",
+        "volatility_component": 48.333333333333336,
+        "sentiment_component": 39.466219512195124,
+        "anomaly_component": 49.404761904761905,
+        "weights_used": {
+          "volatility": 0.45,
+          "sentiment": 0.25,
+          "anomaly": 0.3
+        },
+        "n_headlines": 41,
+        "reasoning": "Crash risk 46/100 (MED). AI-generated simulation, not advice. Volatility 48/100: 20-day volatility (15.6% annualised) is higher than 81% of the past year, and price is 0.0% below its 60-day high. Anomaly 49/100: Isolation Forest finds recent price and volume behaviour more unusual than 99% of the past year (halved because the 5-day move is upward). Sentiment 39/100: average news tone +0.21 across 41 headlines in the last 7 days."
+      },
+      "evaluation": {
+        "n": 1146,
+        "horizon_days": 10,
+        "drop_threshold": 0.05,
+        "spearman_rho": 0.022591969861238605,
+        "spearman_p": 0.4448313069417513,
+        "base_drop_rate": 0.04712041884816754,
+        "by_level": {
+          "LOW": {
+            "n": 531,
+            "mean_fwd_drop": 0.014559103248952838,
+            "drop_rate": 0.02824858757062147
+          },
+          "MED": {
+            "n": 446,
+            "mean_fwd_drop": 0.01549677660659466,
+            "drop_rate": 0.04932735426008968
+          },
+          "HIGH": {
+            "n": 169,
+            "mean_fwd_drop": 0.01572708195693797,
+            "drop_rate": 0.10059171597633136
+          }
+        },
+        "lift_high_vs_base": 2.1347797501643657
+      }
+    },
+    "^GSPC": {
+      "latest": {
+        "as_of": "2026-11-10",
+        "score": 72.1086502862947,
+        "level": "HIGH",
+        "volatility_component": 70.16336824605632,
+        "sentiment_component": 51.66434782608695,
+        "anomaly_component": 92.06349206349206,
+        "weights_used": {
+          "volatility": 0.45,
+          "sentiment": 0.25,
+          "anomaly": 0.3
+        },
+        "n_headlines": 46,
+        "reasoning": "Crash risk 72/100 (HIGH). AI-generated simulation, not advice. Volatility 70/100: 20-day volatility (21.9% annualised) is higher than 100% of the past year, and price is 3.8% below its 60-day high. Anomaly 92/100: Isolation Forest finds recent price and volume behaviour more unusual than 92% of the past year. Sentiment 52/100: average news tone -0.03 across 46 headlines in the last 7 days."
+      },
+      "evaluation": {
+        "n": 1165,
+        "horizon_days": 10,
+        "drop_threshold": 0.05,
+        "spearman_rho": 0.029964000294070165,
+        "spearman_p": 0.306844471776629,
+        "base_drop_rate": 0.07124463519313305,
+        "by_level": {
+          "LOW": {
+            "n": 620,
+            "mean_fwd_drop": 0.015033276212269991,
+            "drop_rate": 0.041935483870967745
+          },
+          "MED": {
+            "n": 347,
+            "mean_fwd_drop": 0.016718406263653295,
+            "drop_rate": 0.06628242074927954
+          },
+          "HIGH": {
+            "n": 198,
+            "mean_fwd_drop": 0.025560971703930385,
+            "drop_rate": 0.1717171717171717
+          }
+        },
+        "lift_high_vs_base": 2.4102470488012653
+      }
+    }
+  }
+}
