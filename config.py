@@ -24,4 +24,13 @@ DEFAULT_TICKERS = {
     "HDFCBANK.NS": ("HDFC Bank", "NSE", "Banking"),
     "AAPL": ("Apple Inc.", "NASDAQ", "Technology"),
     "MSFT": ("Microsoft Corp.", "NASDAQ", "Technology"),
+    # Index tickers used for the market-level crash risk score
+    "^NSEI": ("NIFTY 50", "NSE", "Index"),
+    "^GSPC": ("S&P 500", "NYSE", "Index"),
+}
+
+# NewsAPI search queries for market-wide sentiment (used by the crash risk module)
+MARKET_NEWS_QUERIES = {
+    "^NSEI": "Nifty OR Sensex OR \"Indian stock market\"",
+    "^GSPC": "\"S&P 500\" OR \"Wall Street\" OR \"Federal Reserve\"",
 }
